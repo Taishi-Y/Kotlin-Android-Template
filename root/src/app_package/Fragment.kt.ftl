@@ -23,7 +23,13 @@ class ${className}Fragment : Fragment(), ${className}Contract.View {
         return v
     }
 
+    override fun showToastMessage(message: String) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
     companion object {
+
+        val TAG = "${className}"
 
         fun newInstance(): ${className}Fragment {
             val fragment = ${className}Fragment()

@@ -1,8 +1,9 @@
 package ${packageName};
 
+import android.content.Context
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import jp.inc.nagisa.onstage.R
 
 class ${className}Activity : AppCompatActivity() {
 
